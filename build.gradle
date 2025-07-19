@@ -115,7 +115,8 @@ dependencies {
     modImplementation("curse.maven:kubejs-238086:5012072")
     modImplementation("curse.maven:rhino-416294:6186971")
 
-    modImplementation("maven.modrinth:Jade-1.20.1-Forge-11.13.1")
+    //modImplementation("maven.modrinth:Jade-1.20.1-Forge-11.13.1")
+    modImplementation("curse.maven:jade-324717:6271651")
 
     // Mixin Extras
     implementation(annotationProcessor("io.github.llamalad7:mixinextras-common:$project.mixinextras_version"))
